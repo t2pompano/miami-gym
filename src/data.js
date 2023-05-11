@@ -26,7 +26,16 @@ export const links = [
     {
         name: "Contact",
         path: '/contact'
+    },
+    {
+        name: "LogIn",
+        path: '/login'
+    },
+    {
+        name: "Register",
+        path: 'register'
     }
+
 ]
 
 

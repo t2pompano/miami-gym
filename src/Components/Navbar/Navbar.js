@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../images/logo3.png';
+import logo from '../../images/miami.png';
 import { links } from '../../data';
 import { GoThreeBars } from 'react-icons/go'
 import { MdOutlineClose } from 'react-icons/md'
