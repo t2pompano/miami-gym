@@ -10,6 +10,8 @@ import Plans from './Pages/Plans/Plans';
 import NotFound from './Pages/notFoud/NotFound';
 import Trainers from './Pages/Trainers/Trainers';
 import Footer from './Components/Footer';
+import Login from './Pages/Login/Login';
+import Register from './Pages/Login/Register';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path='gallery' element={<Gallery />} />
         <Route path='plans' element={<Plans />} />
         <Route path='trainers' element={<Trainers />} />
+        <Route path='login' element={<Login />} />
+        <Route path='register' element={<Register />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
