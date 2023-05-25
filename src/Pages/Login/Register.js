@@ -1,20 +1,17 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import headerImage from '../../images/header_bg_6.jpg';
 import './Login.css';
 import Header from '../../Components/Header';
 import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
-    const emailRef = useRef('');
-    const passwordRef = useRef('');
+
     const navigate = useNavigate();
 
-    const handleSubmit = event => {
+    const handleRegister = event => {
         event.preventDefault();
-        const email = emailRef.current.value;
-        const password = passwordRef.current.value;
+        console.log(event.target.email.value);
 
-        console.log(email, password);
     }
 
     const navigateLogin = event => {
@@ -28,18 +25,18 @@ const Register = () => {
             <div className="login__container">
                 <div className="wrapper">
                     <div className="form__wrapper signin">
-                        <form onSubmit={handleSubmit} action="">
+                        <form onSubmit={handleRegister} action="">
                             <h2>Register</h2>
                             <div className="input__group">
-                                <input ref={emailRef} type="text" required />
+                                <input type="text" name='name' required />
                                 <label htmlFor="">Username</label>
                             </div>
                             <div className="input__group">
-                                <input ref={emailRef} type="email" required />
+                                <input type="email" name='email' required />
                                 <label htmlFor="">Email adress</label>
                             </div>
                             <div className="input__group">
-                                <input ref={passwordRef} type="password" required />
+                                <input type="password" name='password' required />
                                 <label htmlFor="">Password</label>
                             </div>
                             <div className="remember">
