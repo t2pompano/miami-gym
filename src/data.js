@@ -28,13 +28,13 @@ export const links = [
         path: '/contact'
     },
     {
-        name: "LogIn",
-        path: '/login'
-    },
-    {
-        name: "Register",
-        path: 'register'
+        name: "Blogs",
+        path: '/blogs'
     }
+    // {
+    //     name: "Register",
+    //     path: 'register'
+    // }
 
 ]
 
@@ -325,5 +325,23 @@ export const trainers = [
         name: 'Wayne Carter',
         job: 'Physical Intelligence Trainer',
         socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+    }
+]
+
+export const blogs = [
+    {
+        id: 1,
+        title: "Authorization & Authentication",
+        desc: "Authentication and authorization are two vital information security processes that administrators use to protect systems and information. Authentication verifies the identity of a user or service, and authorization determines their access rights. In the authentication process, the identity of users are checked for providing the access to the system.In the authentication process, users or persons are verified.It needs usually the user’s login details.Generally, transmit information through an ID Token.The OpenID Connect (OIDC) protocol is an authentication protocol that is generally in charge of user authentication process. ",
+    },
+    {
+        id: 1,
+        title: "Except Authentication firebase can do:",
+        desc: '..........................Extensions, App Check,Cloud Functions,Hosting,Cloud Storage,Realtime Database, Crashlytics,Performance Monitoring,Test Lab,App Distribution, Google Analytics, Machine Learning, In-App Messaging, A/B Testing, Cloud Messaging, Remote Config ............................................... ',
+    },
+    {
+        id: 1,
+        title: "Using firebase and other options",
+        desc: "Google Firebase offers many features that pitch it as the go-to backend development tool for web and mobile apps. It reduces development workload and time. And it's a perfect prototyping tool. Firebase is simple, lightweight, friendly, and industrially recognized. === firebase alternatives:=== (Kinsta. Kinsta. Your application development deserves the best of everything. ..., Parse. Parse. ..., Kuzzle. Kuzzle. ...,Back4App. Back4App. ...,   Supabase. Supabase. ...,   AWS Amplify. AWS Amplify development. ...,  Backendless. Backendless.)",
     }
 ]

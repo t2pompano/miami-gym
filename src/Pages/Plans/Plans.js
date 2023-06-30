@@ -4,6 +4,7 @@ import HeaderImage from '../../images/header_bg_4.jpg';
 import { plans } from '../../data';
 import Header from '../../Components/Header';
 import Card from '../../UI/Card';
+import { Link } from 'react-router-dom';
 
 
 const Plans = () => {
@@ -26,7 +27,9 @@ const Plans = () => {
                                         return <p key={index} className={!available ? 'disabled' : ''}>{feature}</p>
                                     })
                                 }
-                                <button className='btn lg'>Choose Plan</button>
+                                <Link to={'/checkout'}>
+                                    <button className='btn lg'>Choose Plan</button>
+                                </Link>
 
                             </Card>
                         })

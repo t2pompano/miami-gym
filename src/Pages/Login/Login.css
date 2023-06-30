@@ -9,7 +9,7 @@
  .wrapper {
      position: relative;
      width: 400px;
-     height: 500px;
+     /* height: 500px; */
      background: #000;
      box-shadow: 0 0 50px var(--color-primary);
      border-radius: 1.2rem;
@@ -77,12 +77,23 @@
  }
 
  .remember label {
-     color: #fff;
+     color: #e20909;
      font-size: .9 rem;
+     font-weight: 600;
+     padding: 1rem;
  }
 
  .remember label input {
      accent-color: var(--color-primary);
+ }
+
+ .ps-1 {
+     color: #fa1a1a;
+     font-weight: 600;
+ }
+
+ .ps-2 {
+     padding: .8rem;
  }
 
  button {
@@ -92,12 +103,13 @@
      background: var(--color-primary);
      box-shadow: 0 0 10px var(--color-primary);
      font-size: 1rem;
-     color: #000;
+     color: #870101;
      font-weight: 600;
      cursor: pointer;
      border-radius: 1.5rem;
      border: none;
      outline: none;
+     margin: 10px 0;
  }
 
  .signup-link {
@@ -118,4 +130,29 @@
 
  .signupBtn__link:hover {
      text-decoration: underline;
+ }
+
+ .social__container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .or__container {
+     display: flex;
+     align-items: center;
+     width: 100%;
+     margin-bottom: 2.5rem;
+
+ }
+
+ .or {
+     background-color: var(--color-primary);
+     width: 100%;
+     height: 1px;
+ }
+
+ .or__or {
+     padding: 2px;
+     margin: 5px;
  }
