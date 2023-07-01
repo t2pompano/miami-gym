@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# This project used:
+html : html 5
+CSS : css variables and css conditional class
+React : react router dom, react hooks, react icons, react spinner, etc.
+Authentication : Firebase
+Notification : toastify
+
 ## Available Scripts
 
 In the project directory, you can run:
